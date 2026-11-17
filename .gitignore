@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+.DS_Store
+.venv/
+repro_out/
+repro_out*/
+repro_quick*/
+arxiv_submission/main.aux
+arxiv_submission/main.blg
+arxiv_submission/main.fdb_latexmk
+arxiv_submission/main.fls
+arxiv_submission/main.log
+arxiv_submission/main.out
+
+# local project notes, not part of the public repository
+AgentTools/
+blueprint.md
+manuscript_outline.md
+PLAN.md
+paper/

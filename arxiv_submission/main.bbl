@@ -1,0 +1,51 @@
+\begin{thebibliography}{8}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Vovk et~al.(2005)Vovk, Gammerman, and Shafer]{vovk2005algorithmic}
+Vladimir Vovk, Alex Gammerman, and Glenn Shafer.
+\newblock \emph{Algorithmic Learning in a Random World}.
+\newblock Springer, 2005.
+
+\bibitem[Angelopoulos and Bates(2023)]{angelopoulos2021gentle}
+Anastasios~N Angelopoulos and Stephen Bates.
+\newblock Conformal prediction: A gentle introduction.
+\newblock \emph{Foundations and Trends in Machine Learning}, 16\penalty0 (4):\penalty0 494--591, 2023.
+\newblock \doi{10.1561/2200000101}.
+
+\bibitem[Tibshirani et~al.(2019)Tibshirani, Barber, Cand{\`e}s, and Ramdas]{tibshirani2019conformal}
+Ryan~J Tibshirani, Rina~Foygel Barber, Emmanuel~J Cand{\`e}s, and Aaditya Ramdas.
+\newblock Conformal prediction under covariate shift.
+\newblock In \emph{Advances in Neural Information Processing Systems}, volume~32, 2019.
+
+\bibitem[Gibbs and Candes(2021)]{gibbs2021adaptive}
+Isaac Gibbs and Emmanuel Candes.
+\newblock Adaptive conformal inference under distribution shift.
+\newblock In \emph{Advances in Neural Information Processing Systems}, volume~34, 2021.
+
+\bibitem[Barber et~al.(2023)Barber, Candes, Ramdas, and Tibshirani]{barber2023conformal}
+Rina~Foygel Barber, Emmanuel~J Candes, Aaditya Ramdas, and Ryan~J Tibshirani.
+\newblock Conformal prediction beyond exchangeability.
+\newblock \emph{The Annals of Statistics}, 51\penalty0 (2):\penalty0 816--845, 2023.
+\newblock \doi{10.1214/23-AOS2276}.
+
+\bibitem[Le~Cam(1986)]{lecam1986asymptotic}
+Lucien Le~Cam.
+\newblock \emph{Asymptotic Methods in Statistical Decision Theory}.
+\newblock Springer, 1986.
+
+\bibitem[Torgersen(1991)]{torgersen1991comparison}
+Erik Torgersen.
+\newblock \emph{Comparison of Statistical Experiments}.
+\newblock Cambridge University Press, 1991.
+
+\bibitem[Ben-David et~al.(2010)Ben-David, Blitzer, Crammer, Kulesza, Pereira, and Vaughan]{bendavid2010theory}
+Shai Ben-David, John Blitzer, Koby Crammer, Alex Kulesza, Fernando Pereira, and Jennifer~Wortman Vaughan.
+\newblock A theory of learning from different domains.
+\newblock \emph{Machine Learning}, 79\penalty0 (1--2):\penalty0 151--175, 2010.
+\newblock \doi{10.1007/s10994-009-5152-4}.
+
+\end{thebibliography}

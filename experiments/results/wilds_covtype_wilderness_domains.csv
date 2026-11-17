@@ -1,0 +1,2 @@
+dataset,domain_field,domain_value,domain_name,n_samples,coverage,coverage_loss,avg_set_size,ece,delta,delta_ci_upper,coverage_bound,coverage_bound_clipped,bound_mode,c_multiplier,warning,hard_reject,operational_action,method_used,fallback_reason
+covtype_wilderness,,,,0,,,,,,,,,finite_sample,,,,,,covtype fetch failed: 0

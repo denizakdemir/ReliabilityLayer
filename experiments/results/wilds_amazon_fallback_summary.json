@@ -1,0 +1,32 @@
+{
+  "blocker_message": null,
+  "blocker_type": null,
+  "dataset": "amazon_fallback",
+  "finished_at_utc": "2026-10-28T18:45:53.886998Z",
+  "n_domain_rows": 7,
+  "started_at_utc": "2026-10-28T18:42:25.591117Z",
+  "status": "success",
+  "summary": {
+    "cal_split": "20ng_train_domain=comp",
+    "coverage_loss_mean": 0.004055535257581289,
+    "coverage_mean": 0.9511124088920857,
+    "dataset": "amazon_fallback",
+    "delta_mean": 0.09428710275261598,
+    "domain_field": "topic_prefix",
+    "ece_mean": 0.33068514830040235,
+    "eval_split": "20ng_test_by_topic_prefix",
+    "hard_reject_count": 0,
+    "n_cal": 1468,
+    "n_domains": 7,
+    "n_eval_total": 7532,
+    "n_train": 9846,
+    "pearson_p_loss_delta": 0.00574452679444659,
+    "pearson_r_loss_delta": -0.9000497222953134,
+    "source_dataset": "sklearn_20newsgroups",
+    "spearman_p_loss_delta": 0.14381080871160368,
+    "spearman_r_loss_delta": -0.6123724356957946,
+    "status": "success",
+    "train_split": "20ng_train_minus_cal",
+    "vacuous_bound_count": 0
+  }
+}

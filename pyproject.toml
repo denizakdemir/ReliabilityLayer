@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reliability-layer"
+version = "0.1.0"
+description = "Coverage-guaranteed prediction sets, calibration, drift diagnostics, and Le Cam deficiency certificates for deployed ML models."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Deniz Akdemir", email = "deniz.akdemir.work@gmail.com" }
+]
+keywords = ["conformal prediction", "calibration", "distribution shift", "Le Cam deficiency", "reliability"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.21",
+    "scipy>=1.7",
+    "scikit-learn>=1.0",
+    "matplotlib>=3.4",
+    "jinja2>=3.0",
+    "defkit>=0.1.0",
+]
+
+[project.optional-dependencies]
+exact = ["cvxpy>=1.2"]
+dev = ["pytest>=7.0"]
+
+[project.urls]
+Repository = "https://github.com/denizakdemir/ReliabilityLayer"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["reliability*"]

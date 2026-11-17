@@ -1,0 +1,32 @@
+{
+  "blocker_message": null,
+  "blocker_type": null,
+  "dataset": "camelyon_fallback",
+  "finished_at_utc": "2026-10-28T18:42:25.567942Z",
+  "n_domain_rows": 4,
+  "started_at_utc": "2026-10-28T18:32:37.012585Z",
+  "status": "success",
+  "summary": {
+    "cal_split": "covtype_train_wilderness=0",
+    "coverage_loss_mean": 0.06081250000000002,
+    "coverage_mean": 0.8391875,
+    "dataset": "camelyon_fallback",
+    "delta_mean": 0.1773818774948377,
+    "domain_field": "wilderness_area",
+    "ece_mean": 0.045088391865431315,
+    "eval_split": "covtype_test_by_wilderness",
+    "hard_reject_count": 2,
+    "n_cal": 8000,
+    "n_domains": 4,
+    "n_eval_total": 174304,
+    "n_train": 12000,
+    "pearson_p_loss_delta": 0.07495777635324874,
+    "pearson_r_loss_delta": 0.9250422236467514,
+    "source_dataset": "sklearn_covtype",
+    "spearman_p_loss_delta": 0.20000000000000007,
+    "spearman_r_loss_delta": 0.7999999999999999,
+    "status": "success",
+    "train_split": "covtype_train_minus_cal",
+    "vacuous_bound_count": 0
+  }
+}

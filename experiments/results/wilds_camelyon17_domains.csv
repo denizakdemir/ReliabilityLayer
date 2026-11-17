@@ -1,0 +1,2 @@
+dataset,domain_field,domain_value,domain_name,n_samples,coverage,coverage_loss,avg_set_size,ece,delta,delta_ci_upper,coverage_bound_c2,warning,method_used,fallback_reason
+camelyon17,,,,0,,,,,,,,,,"The camelyon17 dataset could not be found in /home/deniz/Dropbox/CorpusLOKAM/ReliabilityLayer/experiments/data/camelyon17_v1.0. Initialize the dataset with download=True to download the dataset. If you are using the example script, run with --download. This might take some time for large datasets."

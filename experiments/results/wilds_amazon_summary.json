@@ -1,0 +1,10 @@
+{
+  "blocker_message": "The amazon dataset could not be found in /home/deniz/Dropbox/CorpusLOKAM/ReliabilityLayer/experiments/data/amazon_v2.1. Initialize the dataset with download=True to download the dataset. If you are using the example script, run with --download. This might take some time for large datasets.",
+  "blocker_type": "data_or_init",
+  "dataset": "amazon",
+  "finished_at_utc": "2026-03-22T11:33:37.478305Z",
+  "n_domain_rows": 0,
+  "started_at_utc": "2026-03-22T11:33:37.475005Z",
+  "status": "blocked",
+  "summary": {}
+}

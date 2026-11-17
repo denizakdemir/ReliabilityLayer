@@ -1,0 +1,32 @@
+arXiv submission notes -- ReliabilityLayer paper (prepared 2026-11-16)
+
+Status: no arXiv version exists (checked 2026-11-16: arXiv API author listing for
+"Akdemir" has 71 entries, none with this title; title search returns 0; no arXiv ID
+for this paper anywhere in the repository). This is a v1 submission.
+
+Title:
+  Coverage Validity Under Distribution Shift: Deficiency as a Shift-Severity
+  Monitor for Conformal Predictors
+
+Authors: Deniz Akdemir
+
+Primary category: stat.ML
+Cross-list:       cs.LG
+
+Comments field (v1):
+  7 pages, 4 figures. Code: https://github.com/denizakdemir/ReliabilityLayer
+
+License (for Deniz to confirm): CC BY 4.0
+  (arXiv's recommended open license; alternatives are arXiv perpetual non-exclusive
+  license, CC BY-SA 4.0, CC BY-NC-SA 4.0, CC0.)
+
+Files to upload: arxiv_submission/ReliabilityLayer_arxiv.tar.gz, containing
+  main.tex, main.bbl, refs.bib, figures/*.png (4 files). No .sty files needed
+  (standard packages only). Compiles standalone with pdflatex (tested in a clean
+  directory; 7 pages, 0 undefined references, 0 overfull boxes, 0 Type 3 fonts).
+
+Abstract (179 words) is in main.tex; paste it into the arXiv form as is, replacing
+the LaTeX macros: \hat\delta -> $\hat\delta$ is fine in arXiv abstracts (they accept
+inline TeX), \emph{not} -> plain "not".
+
+After posting: fill the arXiv link in README.md ("Paper" section).

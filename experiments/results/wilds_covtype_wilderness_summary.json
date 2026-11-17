@@ -1,0 +1,10 @@
+{
+  "blocker_message": "covtype fetch failed: 0",
+  "blocker_type": "data_or_init",
+  "dataset": "covtype_wilderness",
+  "finished_at_utc": "2026-03-23T18:43:14.040642Z",
+  "n_domain_rows": 0,
+  "started_at_utc": "2026-03-23T18:43:11.702397Z",
+  "status": "blocked",
+  "summary": {}
+}
